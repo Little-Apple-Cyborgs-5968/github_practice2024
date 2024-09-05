@@ -43,6 +43,6 @@ document.getElementById('button2').addEventListener('click', button2_clicked);
 
 // team 1
 function button3_clicked() {
-    //write what u want to happen when the button is clicked
+    document.getElementById('button1').innerText = 'robors';
 }
 document.getElementById('button1').addEventListener('click', button3_clicked);
